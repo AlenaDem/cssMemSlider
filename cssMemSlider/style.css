@@ -123,6 +123,11 @@ span {
     background-color: gray;
     margin-right: 10px;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+span:hover {
+    background-color: rgb(54, 54, 54);
 }
 
 span:last-child {
