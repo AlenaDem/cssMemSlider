@@ -12,71 +12,51 @@
 <body>
     <div class="flex-wrapper">
         <div class="slider-wrapper">
-            <div id="btn-prev">
-                <div class="arrows">
-                    <img src="./left.svg" alt="Left button">
+            <input checked type="radio" name="buttons" id="r1">
+            <input type="radio" name="buttons" id="r2">
+            <input type="radio" name="buttons" id="r3">
+            <input type="radio" name="buttons" id="r4">
+            <input type="radio" name="buttons" id="r5">
+
+            <div class="slides">
+                <img src="1.jpg" alt="1" class="slides-img">
+                <img src="2.jpg" alt="2" class="slides-img">
+                <img src="3.jpg" alt="3" class="slides-img">
+                <img src="4.jpg" alt="4" class="slides-img">
+                <img src="5.jpg" alt="5" class="slides-img">
+            </div>
+
+            <div class="main">
+                <div class="captions">
+                    <p class="text">Начинаем работать над заданием в последний момент</p>
+                    <p class="text">Делаю я всё медленно, но причина уважительная</p>
+                    <p class="text">Объясните свою маленькость</p>
+                    <p class="text">Кот или хлеб?</p>
+                    <p class="text">Помогите выманить кота из пакета</p>
+                    <p class="text">Ничего не доделываю до кон</p>
+
+                </div>
+                <div class="controls">
+                    <label for="r1">
+                        <div class="circle"></div>
+                    </label>
+                    <label for="r2">
+                        <div class="circle"></div>
+                    </label>
+                    <label for="r3">
+                        <div class="circle"></div>
+                    </label>
+                    <label for="r4">
+                        <div class="circle"></div>
+                    </label>
+                    <label for="r5">
+                        <div class="circle"></div>
+                    </label>
                 </div>
             </div>
-            <div class="slide active">
-                <img src="1.jpg" alt="">
-                <p class="text">Начинаем работать над заданием в последний момент</p>
-            </div>
-            <div class="slide">
-                <img src="2.jpg" alt="">
-                <p class="text">Делаю я всё медленно, но причина уважительная</p>
-            </div>
-            <div class="slide">
-                <img src="3.jpg" alt="">
-                <p class="text">Объясните свою маленькость</p>
-            </div>
-            <div class="slide">
-                <img src="4.jpg" alt="">
-                <p class="text">Кот или хлеб?</p>
-            </div>
-            <div class="slide">
-                <img src="5.jpg" alt="">
-                <p class="text">Помогите выманить кота из пакета</p>
-            </div>
-            <div class="slide">
-                <img src="6.jpg" alt="">
-                <p class="text">Я решила стать продуктивной, отжалась два раза, могу ещё 98, но я не хочу никому ничего доказывать</p>
-            </div>
-            <div class="slide">
-                <img src="7.jpg" alt="">
-                <p class="text">Ничего не доделываю до кон</p>
-            </div>
-            <div id="btn-next">
-                <div class="arrows">
-                    <img src="./right.svg" alt="Right button">
-                </div>
-            </div>
         </div>
-    </div>
-    <div class="dots-wrapper">
-        <div class="dot-container active">
-            <span class="dot"></span>
-        </div>
-        <div class="dot-container">
-            <span class="dot"></span>
-        </div>
-        <div class="dot-container">
-            <span class="dot"></span>
-        </div>
-        <div class="dot-container">
-            <span class="dot"></span>
-        </div>
-        <div class="dot-container">
-            <span class="dot"></span>
-        </div>
-        <div class="dot-container">
-            <span class="dot"></span>
-        </div>
-        <div class="dot-container">
-            <span class="dot"></span>
-        </div>
+
     </div>
 </body>
-
-<script src="script.js"></script>
 
 </html>
